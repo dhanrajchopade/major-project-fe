@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# Major Project Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a modern e-commerce web application built with React. It offers seamless shopping experiences, including product browsing, cart management, wishlist, and order tracking.
 
-## Available Scripts
+## Table of Contents
 
-In the project directory, you can run:
+- [Features](#features)
+- [Feature Checklist](#feature-checklist)
+- [Getting Started](#getting-started)
+- [Available Scripts](#available-scripts)
+- [Learn More](#learn-more)
+- [Deployment](#deployment)
+- [License](#license)
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Homepage**: Showcases categories and new arrivals.
+- **Product Listing**: Browse products by category with filters (price, gender, ratings, sort).
+- **Product Details**: View product info, select size and quantity, add to cart or wishlist.
+- **Cart**: Manage selected items, change quantity, remove items.
+- **Wishlist**: Save favorite products for later purchase.
+- **Order Management**: View and track past orders.
+- **Address Management**: Add, edit, and select delivery addresses.
+- **Multi-provider State Management**: Uses context for Cart, Wishlist, and Search.
+- **Responsive Design**: Optimized for desktop and mobile use.
+- **Persistent Wishlist**: Wishlist is saved to local storage.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Feature Checklist
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [x] Home page with category navigation and new arrivals
+- [x] Product listing with:
+  - [x] Price filter
+  - [x] Gender filter
+  - [x] Rating filter
+  - [x] Sort by options
+  - [x] Clear filters button
+- [x] Product details with:
+  - [x] Image gallery
+  - [x] Title, price, discount, and rating
+  - [x] Size and quantity selection
+  - [x] Add to cart and wishlist buttons
+  - [x] Display key features
+  - [x] Suggested items section
+- [x] Shopping cart functionality:
+  - [x] Add, update, and remove items
+  - [x] Persist cart items per session
+- [x] Wishlist functionality:
+  - [x] Add/remove products
+  - [x] Move items to cart
+  - [x] Persist wishlist in local storage
+- [x] Orders page to view order history
+- [x] Address form for managing shipping addresses
+- [x] Routing for all pages (React Router)
+- [x] User feedback via alerts (e.g., add to cart/wishlist confirmations)
+- [x] Responsive and user-friendly UI
