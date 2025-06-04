@@ -1,4 +1,4 @@
-# Major Project Frontend
+# Shopping Web App
 
 This project is a modern e-commerce web application built with React. It offers seamless shopping experiences, including product browsing, cart management, wishlist, and order tracking.
 
